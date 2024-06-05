@@ -2,7 +2,7 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 import Hero from "../components/Hero";
 import { FaHome } from "react-icons/fa";
 import { GrDiamond } from "react-icons/gr";
-import Grid from "@/components/Grid";
+import Grid from "@/components/grid";
 
 
 export default function Home() {

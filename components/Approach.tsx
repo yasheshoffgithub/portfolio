@@ -21,34 +21,37 @@ const Approach=()=> {
             My <span className="text-purple"> approach</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase1" />}
-        description="lorem ipsum" >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-emerald-900"
-          />
-        </Card>
-        <Card title="Nisha is Munni" icon={<AceternityIcon order="Phase2"/>}
-        description="lorem ipsum">
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-            dotSize={2}
-          />
-          
-        </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase3" />}
-        description="lorem ipsum">
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
+      <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase1" />}
+  description="In this phase, we lay the groundwork for your project by understanding your requirements, setting clear goals, and devising a strategic plan. We ensure that every aspect of the project is meticulously planned to align with your vision and objectives." >
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-emerald-900"
+    dotSize={2}
+  />
+</Card>
+<Card title="Development" icon={<AceternityIcon order="Phase2"/>}
+  description="This phase involves turning plans into reality. Our team of skilled developers uses the latest technologies to build and implement the solution. We focus on writing clean, efficient code to create a robust and scalable product that meets your needs.">
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-red-900"
+    colors={[
+      [220, 20, 60],  // Crimson
+      [178, 34, 34],  // FireBrick
+      [139, 0, 0],    // DarkRed
+    ]}
+    dotSize={2}
+  />
+</Card>
+<Card title="User Feedback" icon={<AceternityIcon order="Phase3" />}
+  description="In this final phase, we gather feedback from users to refine and improve the product. We perform thorough testing, identify areas for enhancement, and make necessary adjustments to ensure the product delivers an excellent user experience.">
+  <CanvasRevealEffect
+    animationSpeed={3}
+    containerClassName="bg-sky-600"
+    colors={[[125, 211, 252]]}
+    dotSize={2}
+  />
+</Card>
+
       </div>
     </section>
   );

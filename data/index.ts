@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on a Freelance Project",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,72 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "A responsive Blog Template",
+      des: "A clean and responsive blog template created using HTML, CSS & JS. Customize it to start your own blog and share your thoughts.",
+      img: "/blog.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/yasheshoffgithub/HTML--CSS--JS-PROJECTS/tree/main/Responsive_Blog_Template",
+      livelink: "https://blog-template-by-yashesh.netlify.app/"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Snake Game",
+      des: "A classic snake game implemented using HTML, CSS, and JavaScript. Relive the nostalgia with this timeless game.",
+      img: "/snake3.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/yasheshoffgithub/HTML--CSS--JS-PROJECTS/tree/main/SnakeGame",
+      livelink: "https://snake-game-five-eta.vercel.app/"
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      title: "Dragon Game",
+      des: "A fun and interactive dragon game built with HTML, CSS, and JavaScript. Test your skills by playing this simple yet engaging game.",
+      img: "/dragon.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/yasheshoffgithub/HTML--CSS--JS-PROJECTS/tree/main/JavaScript%20Dragon%20Game",
+      livelink: "https://dragon-game-ten.vercel.app/"
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      title: "Personal Portfolio Template",
+      des: "A personal portfolio template to showcase projects and skills, built using HTML, CSS, and JavaScript. Ideal for presenting your work and experiences.",
+      img: "/dev_pic.jpeg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/yasheshoffgithub/HTML--CSS--JS-PROJECTS/tree/main/Personal_Portfolio",
+      livelink: "https://personal-portfolio-by-yashesh.netlify.app/"
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yashesh has been an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yashesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, he is the ideal partner.",
+      name: "Shailendra Bajpai",
+      title: "Owner, Vogue Collection",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yashesh has been an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yashesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, he is the ideal partner.",
+      name: "Shailendra Bajpai",
+      title: "Owner, Vogue Collection",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yashesh has been an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yashesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, he is the ideal partner.",
+      name: "Shailendra Bajpai",
+      title: "Owner, Vogue Collection",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yashesh has been an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yashesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, he is the ideal partner.",
+      name: "Shailendra Bajpai",
+      title: "Owner, Vogue Collection",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Yashesh has been an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yashesh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, he is the ideal partner.",
+      name: "Shailendra Bajpai",
+      title: "Owner, Vogue Collection",
     },
   ];
   
@@ -173,29 +177,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Product Development Intern",
+      desc: "Collaborated with the product team to develop the product of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Web Development Intern",
+      desc: "Designed and developed website for a startup & hence brought more clients",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Technical Head",
+      desc: "Led the tech team of a hackathon, from initial concept to deployment ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Freelancer-Part Time",
+      desc: "Working on a project for scaling an offline store",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

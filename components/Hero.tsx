@@ -43,10 +43,10 @@ const Hero = () => {
             </p>
             <a href="#about">
               <MagicButton 
-                title="Show my work"
+                title="More about me"
                 icon={<FaLocationArrow />}
                 position='right'
-                aria-label="Show my work"
+                aria-label="More about me"
               />
             </a>
         </div>
